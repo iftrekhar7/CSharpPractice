@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExtensionMethod\ApplyingExtension.cs" />
+    <Compile Include="ExtensionMethod\DictionaryExtension.cs" />
     <Compile Include="ExtensionMethod\EnumerableExtension.cs" />
     <Compile Include="ExtensionMethod\ListExtension.cs" />
     <Compile Include="ExtensionMethod\SringExtension.cs" />

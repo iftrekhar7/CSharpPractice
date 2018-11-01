@@ -12,6 +12,9 @@ namespace PracticingCSharp
     {
         static void Main(string[] args)
         {
+            var dictator = "Hello world, i am admiral general ALADIN";
+            Console.WriteLine(dictator.Shorten(4));
+            Console.ReadLine();
         }
     }
 }
