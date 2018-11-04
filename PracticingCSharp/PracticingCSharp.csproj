@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EventDelegate\MailService.cs" />
+    <Compile Include="EventDelegate\MessageService.cs" />
+    <Compile Include="EventDelegate\Video.cs" />
+    <Compile Include="EventDelegate\VideoEncoder.cs" />
+    <Compile Include="EventDelegate\VideoEventArgs.cs" />
     <Compile Include="ExtensionMethod\ApplyingExtension.cs" />
     <Compile Include="ExtensionMethod\DictionaryExtension.cs" />
     <Compile Include="ExtensionMethod\EnumerableExtension.cs" />
@@ -54,5 +59,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
